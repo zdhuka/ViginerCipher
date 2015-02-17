@@ -1,0 +1,11 @@
+public class DecryptViginer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String encryptedText = "TFNMJBDCRITVVAFSRCJIFDPINNNMKAPELIWTTPYQFUIWJSJBIXULMGPXRZWNFDQXOPICRSALAERNVVKJHRVKJOJQIMBKBISTZKLZFSMVWPSWXJSLVXJSYIPYFERSWVEVLNFCBHFTDMRXDYTMHIVOIMJIVJZFIMMSFESSRQCQDNFIBISDFUTZUVZWTGZMAFSJQGMOZKLYTFAMHIKMVTCJQIIBQCWYJDUXJFZVQJOJKLRVJAXJEFKLRFYZWJJEIPXFZVIRBJKLNOV";
+		FriedmanTest test = new FriedmanTest(Language.ENGLISH);
+		String plainText = test.analyse(encryptedText);
+		System.out.println("Plain Text is : \n " + plainText);
+	}
+
+}
